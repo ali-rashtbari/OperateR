@@ -1,6 +1,6 @@
 # OperateR
 
-OperateR is a lightweight and extensible mediator-based library built with C# to handle events, commands, and notifications in a clean and decoupled manner. Inspired by the mediator pattern, this project helps to organize application logic into small, testable components.
+**OperateR** is a lightweight and extensible mediator-based library built with C# to handle events, commands, and notifications in a clean and decoupled manner. Inspired by the mediator pattern, this project helps to organize application logic into small, testable components.
 
 ## 🧱 Project Structure
 
@@ -27,16 +27,21 @@ OperateR is a lightweight and extensible mediator-based library built with C# to
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/OperateR.git
-   Add the project to your solution.
-
+   ```
+   
 2. Add the project to your solution.
-3. Use the extension method AddOperateR() to register the required services:
+   
+3. Use the extension method `AddOperateR()` to register the required services:
+   ```csharp
    services.AddOperateR();
+   ```
 
-📌 Goals
+## 📌 Goals
+
 - Promote clean architecture.
 - Simplify cross-cutting concerns with pipeline behaviors.
 - Provide an extensible base for CQRS and event-driven architecture.
 
-📄 License
+## 📄 License
+
 This project is open-source and available under the MIT License.
